@@ -1,0 +1,33 @@
+Olympic Acronyms
+
+Midlet created with Sun J2ME Wireless Toolkit 2.2 [patch 200508].
+
+o How to build:
+
+  - extract to the j2mewt "apps" directory
+  - run ktoolbar from j2mewt "bin" directory and open Olympic Acronyms Project,
+    click on Project menu and then Package, Create Package
+
+    or type these commands from Olympic Acronyms directory:
+
+    [in Linux]
+    - javac -bootclasspath ../../lib/cldcapi10.jar:../../lib/midpapi10.jar -d tmpclasses src/*.java
+    - ../../bin/preverify -classpath ../../lib/cldcapi10.jar:../../lib/midpapi10.jar -d classes tmpclasses
+    - jar cfm bin/OlympicAcronyms.jar MANIFEST.MF -C classes . -C res .
+
+    [in Windows]
+    - javac -bootclasspath ..\..\lib\cldcapi10.jar;..\..\lib\midpapi10.jar -d tmpclasses src\*.java
+    - ..\..\bin\preverify -classpath ..\..\lib\cldcapi10.jar;..\..\lib\midpapi10.jar -d classes tmpclasses
+    - jar cfm bin\OlympicAcronyms.jar MANIFEST.MF -C classes . -C res .
+
+o How to try:
+
+  click on ktoolbar "Run" button
+  or run emulator from j2mewt "bin" directory (the JAD file must be created)
+
+o How to send midlet to phone:
+
+  use Bluetooth
+  or IrDA
+  or serial/USB cable
+

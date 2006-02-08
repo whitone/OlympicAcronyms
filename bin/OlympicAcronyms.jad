@@ -1,0 +1,11 @@
+MIDlet-1: Torino 2006, /icons/OlympicAcronyms.png, OlympicAcronyms
+MIDlet-Description: The acronyms of Olympic Winter Games of Torino 2006
+MIDlet-Icon: /icons/OlympicAcronyms.png
+MIDlet-Info-URL: http://whitone.atspace.org/projects/OlympicAcronyms
+MIDlet-Jar-Size: 4555
+MIDlet-Jar-URL: http://www.getjar.com/downloads/wap/pub--1/5131/OlympicAcronyms.jad
+MIDlet-Name: Torino 2006
+MIDlet-Vendor: Stefano Cotta Ramusino
+MIDlet-Version: 0.1
+MicroEdition-Configuration: CLDC-1.0
+MicroEdition-Profile: MIDP-1.0
